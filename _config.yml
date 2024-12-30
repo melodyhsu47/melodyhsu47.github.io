@@ -1,5 +1,5 @@
 remote_theme: pages-themes/minimal@v0.2.0
 description: Last updated Dec 2024
-logo: /assets/img/cropped
+logo: /assets/img/cropped.png
 plugins:
 - jekyll-remote-theme

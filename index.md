@@ -5,6 +5,6 @@ My name is Melody Hsu and I'm a second-year PhD student in the computer science 
 
 ### Publications
 
-* (AAAI '25) [M. Monroe, A. Thilagar, M. Hsu, and R. Frongillo, Hedging and approximate truthfulness in traditional forecasting competitions, 2024.](https://arxiv.org/abs/2409.19477) arXiv: 2409.19477 [cs.LG].
+* (AAAI '25) [M. Monroe, A. Thilagar, **M. Hsu**, and R. Frongillo, Hedging and approximate truthfulness in traditional forecasting competitions, 2024.](https://arxiv.org/abs/2409.19477) arXiv: 2409.19477 [cs.LG].
 
 

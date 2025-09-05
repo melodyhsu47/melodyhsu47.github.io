@@ -1,5 +1,8 @@
 ---
 title: Computational Fabrication 2025
-layout: template
+layout: default
 filename: compfab.md
 ---
+
+
+page content

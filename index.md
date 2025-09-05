@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-My name is Melody Hsu and I'm a second-year PhD student in the computer science department at University of Colorado, Boulder, where I'm part of the [Algorithmic Economics group](https://www.colorado.edu/cs-theory/alg-econ). I work on problems in algorithmic game theory and have broader interests in algorithmic economics, computational social choice, and the ethics of using algorithms as a solution to solving societal inequities.
+My name is Melody Hsu and I'm a third-year PhD student in the computer science department at University of Colorado, Boulder, where I'm part of the [Algorithmic Economics group](https://www.colorado.edu/cs-theory/alg-econ). I work on problems in algorithmic game theory and have broader interests in algorithmic economics, computational social choice, and the ethics of using algorithms as a solution to solving societal inequities.
 
 ### Publications
 

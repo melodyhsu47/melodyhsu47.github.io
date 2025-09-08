@@ -1,7 +1,7 @@
 ---
 title: Computational Fabrication 2025
 layout: default
-filename: compfab.md
+filename: compfab-2025.md
 ---
 
-[M1: Examples of computational design](melohsu.com/compfab-2025-m1)
+[M1: Examples of computational design](melohsu.com/compfab-2025/m1)

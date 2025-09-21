@@ -5,4 +5,5 @@ filename: compfab-2025.md
 ---
 
 [M2: Lasered](https://melohsu.com/compfab-2025/m2)
+
 [M1: Examples of computational design](https://melohsu.com/compfab-2025/m1)

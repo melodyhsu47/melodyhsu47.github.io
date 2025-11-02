@@ -3,6 +3,8 @@ title: Computational Fabrication 2025
 layout: default
 filename: compfab-2025.md
 ---
+[L3: Travel Through Another Dimension](https://melohsu.com/compfab-2025/l3)
+
 [M3: A Seat at the Table](https://melohsu.com/compfab-2025/m3)
 
 [L2: Stacking Up](https://melohsu.com/compfab-2025/l2)

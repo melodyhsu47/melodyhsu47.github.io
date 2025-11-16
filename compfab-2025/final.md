@@ -26,6 +26,10 @@ After reading in the lines of the point coordinates file, the coordinates are jo
 #### Images
 Below is the demo image, the (optional) output from step 1, and then the final output from step 2.
 
+<img src="assets/img/apple.png" />
+<img src="assets/img/points.png" />
+<img src="assets/img/path.png" />
+
 **Runtime**: Initial tests have been done with a resized image of 200 x 220 pixels, with 500 points and 5000 iterations of Macqueen's algorithm.
 The whole process terminates in around 2-4 minutes from start to finish, with the vast majority of the time spent on step 1.
 It is unlikely that step 1's runtime can be optimized much further, as even heuristic TSP computations are expensive.

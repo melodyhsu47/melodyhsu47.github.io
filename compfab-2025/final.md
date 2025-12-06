@@ -15,8 +15,21 @@ See the mid-progress report for details on the implementation.
 The code remains similar.
 
 #### Example usage
+Usage is very simple and all wrapped into the `Stippler` class.
+The only parameters the user needs to pass in are `img_width`, the width (in pixels) of the image to be drawn, and `num_points`, the number of stippled points.
 ```
-hi
+filepath = '/Users/melodyhsu/Desktop/bonsai.jpg'
+img_width = 300
+num_points = 600
+
+s = Stippler()
+
+greyscale_image = s.process(filepath,img_width)
+stippled_points = s.macqueen(greyscale_image,num_points)
+path, _ = s.tsp_path(stippled_points)
+
+np.savetxt("path_drawing/points.csv",stippled_points,delimiter=',',fmt='%.3f')
+np.savetxt("path_drawing/path.csv",path,delimiter=',',fmt='%d')
 ```
 
 

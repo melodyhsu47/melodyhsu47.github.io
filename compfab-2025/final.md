@@ -2,6 +2,24 @@
 layout: default
 filename: final.md
 ---
+### Final Report (12/5/2025)
+The aim of this project is to reproduce any input image of any format as an image drawn from a single, continuous line.
+The output is generated using a two-step process which is written in a combination of Python and Processing.
+The final output is intended to be laser-etched into a laser-safe material.
+
+This project takes direct inspiration from [Opt Art: From Mathematical Optimization to Visual Design by Robert Bosch](https://press.princeton.edu/books/hardcover/9780691164069/opt-art?srsltid=AfmBOorkFsOVZK2vYG8Cq-LrHTIinf0wXhaYH9N-rWbcWdj1vdR3eEOt).
+In his book, he provides an overview of how he generates the below images (without explicitly providing code); the code that I wrote is an implementation of the process he describes.
+
+#### Implementation details
+See the mid-progress report for details on the implementation.
+The code remains similar.
+
+#### Example usage
+```
+hi
+```
+
+
 ### Mid-Progress Report (11/16/2025)
 The ultimate goal of this project is to write a script that will take any image and create a single-stroke rendering of it.
 This process occurs through two main (algorithmic) steps: (1) the image is converted to a series of stippled points, with a higher density of points in darker areas of the image; and then (2) the points are joined using a TSP traversal.

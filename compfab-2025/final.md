@@ -3,6 +3,9 @@ layout: default
 filename: final.md
 ---
 ### Final Report (12/5/2025)
+The code for the `Stippling` class, the main class that performs the algorithms described below, can be found [here](https://github.com/melodyhsu47/CompFab-2025/blob/main/stippling.py).
+The main driver code can be found [here](https://github.com/melodyhsu47/CompFab-2025/blob/main/image_processing.py).
+The Processing code that generates the final lines can be found [here](https://github.com/melodyhsu47/CompFab-2025/blob/main/path_drawing.pde).
 The aim of this project is to reproduce any input image of any format as an image drawn from a single, continuous line.
 The output is generated using a two-step process which is written in a combination of Python and Processing.
 The final output is intended to be laser-etched into a laser-safe material.
@@ -18,7 +21,7 @@ The code remains similar.
 Usage is very simple and all wrapped into the `Stippler` class.
 The only parameters the user needs to pass in are `img_width`, the width (in pixels) of the image to be drawn, and `num_points`, the number of stippled points.
 ```
-filepath = '/Users/melodyhsu/Desktop/bonsai.jpg'
+filepath = '/Users/melodyhsu/Desktop/bird.jpeg'
 img_width = 300
 num_points = 600
 
@@ -31,6 +34,26 @@ path, _ = s.tsp_path(stippled_points)
 np.savetxt("path_drawing/points.csv",stippled_points,delimiter=',',fmt='%.3f')
 np.savetxt("path_drawing/path.csv",path,delimiter=',',fmt='%d')
 ```
+The files `points.csv` and `path.csv` contain coordinates in the XY-plane and the order of traversal, respectively, which are then passed into Processing.
+The Processing program then joins the coordinates with lines in the visitation order specified by `path.csv`.
+
+The user can also optionally visualize the stippled points below by adding the below lines to the driver code:
+
+```
+px = [p[0] for p in stippled_points]
+py = [p[1] for p in stippled_points]
+
+plt.scatter(px,py,s=1)
+plt.show()
+```
+#### Visual output
+As an example, the bird image, when stippled, looks like this:
+
+<img src="assets/img/pointfig_flying.png" />
+
+The output from Processing looks like this:
+
+<img src="assets/img/Bird2.jpeg" />
 
 
 ### Mid-Progress Report (11/16/2025)
